@@ -8,18 +8,27 @@ import FlatNest from './Components/FlatNest/FlatNest';
 import NestedList from './Components/NestedList/NestedList';
 import FlexBox from './Components/FlexBox/FlexBox';
 import exoar from './Components/exo1/exoar'
+import Alertes from './Components/Alertes';
+import InputTest from './Components/InputTest';
+import Calculatrice from './Components/Calculatrice'
 // Structure du composant fonction classique.
 const App = () => {
+
+  
   return (
     <View style={styles.body}>
       <View style={styles.body}>
-        {/* <Introduction monNom={'Alex'} /> */}
+       {/* <Introduction monNom={'Laurnet'} /> */}
         {/* <Statusbar /> */}
         {/* <Scroller /> */}
         {/* <FlatNest /> */}
         {/* <NestedList /> */}
        {/* <FlexBox />*/}
-       <exoar/>
+      {/* <exoar/>  */}
+    
+     {/* <InputTest/>*/}
+     {/* <Alertes/>*/}
+      <Calculatrice/>
       </View>
     </View>
   );

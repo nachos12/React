@@ -3,9 +3,9 @@ import React from "react";
 import {View, Text, StyleSheet, Image, IconButton} from 'react-native';
 //icone
 export const exoar = props => {
-	const icone1 = require('../../img//icons8-engrenage-30');
-	const icone2 = require('../../img/icons8-home-24');
-	const icone3 = require('../../img/icons8-pavé-numérique-30.png');
+	// const icone1 = require('../../icone//icons8-engrenage-30');
+	// const icone2 = require('../../icone/icons8-home-24');
+	// const icone3 = require('../../icone/icons8-pavé-numérique-30.png');
 
   return (
     <View style={styles.container}>
