@@ -79,8 +79,6 @@ export const Calculatrice = () => {
         <Pressable style={styles.press} onPress={() => handlePress("-")}>
           <Text style={styles.textPress}>-</Text>
         </Pressable>
-      </View>
-      <View style={styles.row}>
         <Pressable style={styles.press} onPress={() => handlePress("*")}>
           <Text style={styles.textPress}>*</Text>
         </Pressable>
@@ -88,7 +86,8 @@ export const Calculatrice = () => {
           <Text style={styles.textPress}>/</Text>
         </Pressable>
       </View>
-       {/* input du calcul pour lecrir sans les presse bouton*/}
+
+       {/* input du calcul pour lecrir sans presser les boutons*/}
       <TextInput
         onChangeText={handleChange}
         placeholder='Ecrire le calcul'
@@ -131,7 +130,8 @@ const styles = StyleSheet.create({
     borderRadius:50,
   },
   textPress: {
-    color: "white"
+    color: "white",
+    fontSize:20
   },
   textCalcul: {
     fontSize: 30,
